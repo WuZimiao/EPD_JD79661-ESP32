@@ -1,0 +1,27 @@
+{
+  "name": "EPD_JD79661",
+  "version": "1.0.0",
+  "description": "Driver for 2.13\" black/white/yellow/red e-paper (JD79661 controller, 122x250) with full and partial-window refresh, using Adafruit GFX.",
+  "keywords": "epaper, e-paper, eink, jd79661, 4-color, display, esp32",
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "dependencies": [
+    {
+      "owner": "adafruit",
+      "name": "Adafruit GFX Library",
+      "version": "^1.12.4"
+    }
+  ],
+  "headers": "EPD_JD79661.h",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WuZimiao/EPD_JD79661-ESP32.git"
+  },
+  "authors": [
+    {
+      "name": "WuZimiao",
+      "maintainer": true
+    }
+  ]
+}
